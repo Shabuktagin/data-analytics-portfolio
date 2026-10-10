@@ -35,6 +35,24 @@ Large profit variation suggests further investigation into loss-making transacti
 
 High discounts require investigation to understand their relationship with profitability.
 
+## Feature Engineering
+
+Created new analytical feature:
+
+### Shipping Days
+
+Formula:
+
+Ship Date - Order Date
+
+Purpose:
+
+To analyze delivery performance and identify potential operational issues.
+
+Validation:
+
+Sample records were manually checked after conversion from text dates to datetime format.
+
 ## AI-Assisted Review
 
 AI was used to:
