@@ -189,6 +189,91 @@ Before finalizing the dashboard, its unfiltered totals were reconciled with the 
 
 **$2,297,200.86 in Sales, $286,397.02 in Profit, a 12.47% Profit Margin, and 5,009 distinct Orders.**
 
+---
+
+## Key Business Findings
+
+The analysis produced four executive-level insights covering category profitability, discounting, regional performance, and revenue growth.
+
+### 1. Furniture Generates Revenue but Weak Profitability
+
+Furniture generated approximately **$742,000 in sales**, but only **$18,451 in profit**, resulting in a **2.49% profit margin**.
+
+The Tables subcategory recorded approximately **$17,725 in losses**.
+
+**Business takeaway:** Investigate low-margin Furniture products and evaluate their pricing, discounting, and cost structures.
+
+### 2. Discounted Transactions Are Associated with Lower Profitability
+
+Order lines without discounts generated approximately **$320,988 in profit** at a **29.51% margin**.
+
+In contrast, all discounted order lines combined generated a net loss of approximately **$34,591**.
+
+**Business takeaway:** Examine high-discount products and promotions to identify situations where revenue is generated without adequate profitability.
+
+### 3. High Regional Sales Do Not Guarantee High Profit
+
+The Central region generated approximately **$501,240 in sales** but only **$39,706 in profit**, with a **7.92% margin**.
+
+The South region generated less revenue—approximately **$391,722**—but earned more profit at approximately **$46,749**.
+
+**Business takeaway:** Evaluate regional performance using profit and profit margin alongside revenue.
+
+### 4. Sales Growth Outpaced Profit Growth in 2017
+
+From 2016 to 2017:
+
+- Sales increased by approximately **20.36%**.
+- Profit increased by approximately **14.24%**.
+- Profit margin declined from **13.43% to 12.74%**.
+
+**Business takeaway:** Revenue growth should be assessed alongside profitability to understand whether additional sales are generating proportionate financial returns.
+
+These findings describe patterns in historical data. They do not independently establish the causes of profitability differences.
+
+---
+
+## Project Deliverables
+
+This project combines data preparation, database validation, business intelligence, and executive reporting.
+
+| Deliverable | Description |
+|---|---|
+| Python Analysis Notebook | Data exploration, cleaning, feature engineering, and validation using Pandas |
+| Cleaned Dataset | Prepared Superstore data containing 9,994 records |
+| SQL Validation | Database integration and reconciliation of record counts and financial totals |
+| Power BI Dashboard | Interactive executive report with KPIs, charts, slicers, tooltips, and reset functionality |
+| Executive Business Insights | Four documented findings with evidence, business implications, and recommended actions |
+| Dashboard Screenshot | Preview of the finished Power BI report |
+
+### How to Explore the Dashboard
+
+The dashboard screenshot is displayed near the beginning of this README.
+
+The Power BI report supports interactive exploration through Year and Region slicers. Users can investigate annual performance, regional sales, category margins, and profitability across discount bands.
+
+The Reset Default button restores the unfiltered executive overview.
+
+The editable `.pbix` report can be opened with Power BI Desktop once the report file is available in the repository. Refreshing its data may require configuring access to the original MySQL source.
+
+---
+
+## Limitations
+
+- The Sample Superstore dataset is a historical practice dataset covering **2014–2017**.
+- The analysis is descriptive and observational; relationships involving discounts and profitability should not be interpreted as causal effects.
+- Discount analysis is based on order-line records, rather than treating every row as a separate customer order.
+- Business recommendations should be treated as investigation priorities rather than proven interventions.
+
+---
+
+## Project Conclusion
+
+This project demonstrates an end-to-end analytics workflow, from preparing raw retail data to producing validated financial metrics and an interactive executive dashboard.
+
+A major technical lesson was the importance of cross-tool data validation. Identifying and resolving a 300-record import discrepancy ensured that the final analysis used the complete dataset.
+
+The resulting dashboard and executive findings illustrate how Python, SQL, Power BI, and business reasoning can work together to support evidence-based decision-making.
 This cross-tool validation helps ensure that the reported business insights are based on complete and consistent data.
 
 
