@@ -1,92 +1,43 @@
-# Sales & Profitability Analytics
+# Superstore Sales & Profitability Analysis
 
-## 📌 Project Overview
+**End-to-End Data Analytics Portfolio Project**
 
-This project analyzes sales and profitability performance across products, customers, categories, regions, and time.
+**Tools:** Python (Pandas) | MySQL | Power BI | DAX | GitHub  
+**Analysis Period:** 2014–2017  
+**Dataset:** Sample Superstore  
+**Records Analyzed:** 9,994
 
-The objective is to identify the main drivers of revenue and profit, investigate the impact of discounting, and provide actionable insights for business decision-making.
+## Project Overview
 
-## 🎯 Business Questions
+This project analyzes historical retail sales data to evaluate revenue performance, profitability, regional trends, category performance, and the relationship between discounting and profit margins.
 
-This analysis will investigate questions such as:
+The goal is to move beyond descriptive reporting and identify actionable business opportunities supported by data.
 
-* How are sales and profit changing over time?
-* Which regions and categories generate the most revenue?
-* Which products generate high sales but low profit?
-* How does discounting relate to profitability?
-* Which customer segments contribute the most profit?
-* Which products, regions, or categories require further investigation?
-* Are there seasonal patterns in sales and profit?
+The project follows an end-to-end analytics workflow:
 
-## 🛠️ Tools
+**Data Exploration → Data Cleaning with Python → SQL Validation → Power BI Dashboard → Executive Business Insights**
 
-* Excel
-* Power Query
-* SQL
-* Python / pandas
-* Power BI
-* DAX
-* AI-assisted analytics
+## Executive Dashboard
 
-## 🔄 Analytical Workflow
+![Superstore Executive Dashboard](images/superstore_executive_dashboard.png)
 
-```text
-Raw Data
-   ↓
-Data Cleaning
-   ↓
-Data Validation
-   ↓
-SQL Analysis
-   ↓
-Python Analysis
-   ↓
-Data Modeling
-   ↓
-Power BI
-   ↓
-Business Insights
-   ↓
-AI-assisted Review
-```
+The interactive Power BI dashboard includes:
 
-## 📊 Project Status
+- Executive KPIs covering total sales, profit, profit margin, and distinct orders.
+- Annual sales and profit trends.
+- Regional sales comparisons.
+- Category-level profit margin analysis.
+- Profitability analysis across discount bands.
+- Interactive Year and Region slicers, contextual tooltips, and a Reset Filters button.
 
-🚧 In progress
+## Key Performance Indicators
 
-## 📁 Project Structure
+| KPI | Result |
+|---|---:|
+| Total Sales | $2,297,200.86 |
+| Total Profit | $286,397.02 |
+| Overall Profit Margin | 12.47% |
+| Distinct Orders | 5,009 |
+| Records Analyzed | 9,994 |
 
-```text
-data/           Raw and cleaned datasets
-excel/          Excel analysis and cleaning work
-sql/            SQL scripts and analysis
-python/         Python / pandas analysis
-powerbi/        Power BI files
-screenshots/    Dashboard screenshots
-documentation/  Data dictionary and supporting documentation
-```
-
-## 🤖 AI-Assisted Analytics
-
-AI will be used as an analytical assistant for tasks such as:
-
-* Developing analytical questions
-* Assisting with SQL and Python
-* Identifying possible data-quality issues
-* Generating analytical hypotheses
-* Critiquing analytical conclusions
-* Improving business communication
-
-AI-generated outputs will be independently reviewed and validated before being included in the final analysis.
-
-## 📌 Key Findings
-
-*To be completed after analysis.*
-
-## 💡 Business Recommendations
-
-*To be completed after analysis.*
-
-## ⚠️ Limitations
-
-*To be completed after analysis.*
+*All KPIs reflect the complete 2014–2017 dataset with no dashboard filters applied.*
