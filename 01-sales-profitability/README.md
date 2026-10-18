@@ -19,7 +19,7 @@ The project follows an end-to-end analytics workflow:
 
 ## Executive Dashboard
 
-![Superstore Executive Dashboard](images/superstore_executive_dashboard.png)
+![Superstore Executive Dashboard](superstore_executive_dashboard.png)
 
 The interactive Power BI dashboard includes:
 
